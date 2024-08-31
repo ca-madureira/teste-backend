@@ -1,0 +1,7 @@
+services:
+  web:
+    image: camilapang94/backend-measure:v1
+    ports:
+      - '8000:8000'
+    environment:
+      - DB_URI=${DB_URI}
